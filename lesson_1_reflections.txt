@@ -1,0 +1,42 @@
+Q:How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+A:diff is useful because we can only see the lines in the file
+that have changed, rather than having to scan through thousands.
+It also shows up exactly what has changed, so we don't have to
+eyeball it, looking for extremely small differences like a
+single character difference.
+
+Q:How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+A:Having easy access to the entire history of a file means you
+can go back to see previous versions.  You can undo problems if
+your code stops working---just go back to your previous one.
+
+Q:What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+A:Manual commits means the programmer has more flexibility. You can
+also group commits more logically.  But the con is that the programmer
+may forget to do a commit or only commit later.  Then the changes are too big
+or there may not be a commit to roll back to.
+
+Q:Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+A:Git lets you save multiple files in 1 commit because code changes frequently
+affect multiple files at once.  Functions and Classes can be imported from 1 file
+into another.  Whereas in normal documents, files aren't as interconnected.
+
+Q:How can you use the commands git log and git diff to view the history of files?
+A:git log shows you all the commits that have been done in the past.  Each commit shown
+has a unique id and timestamp.  You can use git diff <oldcommitid1> <newcommitid2> which
+shows you in green the lines added, and in red the lines removed.
+
+Q:How might using version control make you more confident to make changes that could break something?
+A:Because if you make a change that breaks the file, you can fix it later!
+
+Q:Now that you have your workspace set up, what do you want to try using Git for?
+A:We want to try using Git to have a version control system for our code projects. We can
+save various versions of our code and make changes without worry about breaking out code.
+I also want to be able to save my code in the cloud and collaborate with friends.  We need to
+use github to be able to share code across many computers.
