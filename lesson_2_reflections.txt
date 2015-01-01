@@ -1,0 +1,11 @@
+Q: What happens when you initialize a repository? Why do
+   you need to do it?
+A: This creates an empty git repository. This adds an empty .git/ folder
+inside your folder to add more metadata.  It can track your changes.Any
+files that are currently in the folder are marked as "untracked."
+
+Q:How is the staging area different from the working directory and
+the repository? What value do you think it offers?
+A:The staging area lets us choose which files we want to commit from the working
+directory to the repository.  It allows us to selectively choose which files to commit
+and at certain times.  It lets us have more granular control over the commits.
