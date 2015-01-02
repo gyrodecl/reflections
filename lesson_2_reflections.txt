@@ -20,3 +20,8 @@ Q:What are some situations when branches would be helpful in keeping your histor
 organized? How would branches help?
 A:Branches help when we want to try out an experimental version of our code
 or want to try something that could totally break the codebase.
+
+Q:How do the diagrams help you visualize the branch structure?
+A:We can see which commits were present at the time of the new branch
+and which were unique to the branch and which were added to the main branch
+after the separate branch was spun off.  So we can see which code is in which file.
