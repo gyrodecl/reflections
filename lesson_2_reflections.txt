@@ -25,3 +25,8 @@ Q:How do the diagrams help you visualize the branch structure?
 A:We can see which commits were present at the time of the new branch
 and which were unique to the branch and which were added to the main branch
 after the separate branch was spun off.  So we can see which code is in which file.
+
+Q:What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+A:It merges 1 branch into another.  It creates a new commit where
+the previous commits from both branches now point to this new one.
