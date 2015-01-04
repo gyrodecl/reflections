@@ -30,3 +30,10 @@ Q:What is the result of merging two branches together?
 Why do we represent it in the diagram the way we do?
 A:It merges 1 branch into another.  It creates a new commit where
 the previous commits from both branches now point to this new one.
+
+Q:What are the pros and cons of Git’s automatic merging vs.
+always doing merges manually?
+A:The pros of automatic merging is that it can save you time.
+git only prompts conflict detection when there's similar code in the
+same area.  The con is that it can sometimes include lines you don't want
+in your final file.
