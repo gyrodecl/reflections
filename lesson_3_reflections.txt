@@ -1,3 +1,9 @@
 Q:When would you want to use a remote repository rather than keeping all your work local?
 A:A remote repository is useful if you want to backup your files in the cloud.  It's also necessary if you want to
 collaborate with other people, either with a small team or a large open source project.
+
+Q:Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+A:There might be changes on the remote repo that you don't necessarily
+want to include in your local version.  Especially if this is code from someone else,
+it would overwrite files that you have saved.
