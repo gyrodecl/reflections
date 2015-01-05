@@ -7,3 +7,15 @@ automatically stay up-to-date with your remote repository?
 A:There might be changes on the remote repo that you don't necessarily
 want to include in your local version.  Especially if this is code from someone else,
 it would overwrite files that you have saved.
+
+Q:Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+A:A branch is when you want to work locally on an extension of your project.
+maybe to add a new feature.  Cloning is GitHubRepo -->Local Machine or
+Local Machine --> Local Machine.  It's copying a repository from 1 place to another.
+Cloning sets up a remote to the original location where you got the folder from.
+Forking is when someone has a GitHub repo and you want to have a version you can work
+on, but you don't have access to their account.  So you do fork on Github, which is
+GitHubRepo-->Your Own GitHubRepo.  To have that locally, then you'd do do a git clone
+of your github repo.  This is now pointing to your forked version on GitHub.
