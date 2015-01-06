@@ -24,3 +24,10 @@ Q:What is the benefit of having a copy of the last known state of the remote sto
 A:By having this copy, we can download the remote into this state using fetch, and then
 do the merge on our own.  It also tells us when our current version is ahead of the last known
 version of the remote repo.  This is a hint to us to do a git push.
+
+Q:How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+A:To collaborate without GitHub, you'd have to send files back and forth and manually
+look at the differences.  And send long explanations or personally walk the person through
+your code changes.  With GitHub people can work remotely much easier, and all the file syncing
+is done online.
