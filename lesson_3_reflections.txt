@@ -19,3 +19,8 @@ Forking is when someone has a GitHub repo and you want to have a version you can
 on, but you don't have access to their account.  So you do fork on Github, which is
 GitHubRepo-->Your Own GitHubRepo.  To have that locally, then you'd do do a git clone
 of your github repo.  This is now pointing to your forked version on GitHub.
+
+Q:What is the benefit of having a copy of the last known state of the remote stored locally?
+A:By having this copy, we can download the remote into this state using fetch, and then
+do the merge on our own.  It also tells us when our current version is ahead of the last known
+version of the remote repo.  This is a hint to us to do a git push.
