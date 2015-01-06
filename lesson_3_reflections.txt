@@ -31,3 +31,8 @@ A:To collaborate without GitHub, you'd have to send files back and forth and man
 look at the differences.  And send long explanations or personally walk the person through
 your code changes.  With GitHub people can work remotely much easier, and all the file syncing
 is done online.
+
+Q:When would you want to make changes in a separate branch
+rather than directly in master? What benefits does each approach have?
+A:A separate branch is critical if the code changes could fundamentally break
+the master codebase.
